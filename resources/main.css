@@ -1,0 +1,167 @@
+/*Main*/
+html {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #0000008a;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0000008a;
+    padding: 1rem;
+}
+
+.far-left {
+    margin-right: auto;
+}
+
+.far-right {
+    margin-left: auto;
+}
+
+p {
+   
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.white {
+    background-color: white;
+}
+
+.left {
+    width: 60%;
+    height: auto;
+}
+
+.right {
+    width: 40%;
+    height: auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.big-img-container {
+    margin: 2rem 1.5rem;
+}
+
+.blue {
+    color: rgb(55, 55, 153);
+}
+
+/*Banner*/
+
+.logo {
+    margin-left: 24px;
+}
+
+.logo img {
+    height: 3rem;
+    width: 3rem;
+}
+
+#colmar {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+#academy {
+    font-size: 1.5rem;
+}
+
+.nav {
+    margin-right: 24px;
+}
+
+/*Learn*/
+
+button {
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: rgba(20, 20, 20, 0.644);
+    border: 2px solid rgba(20, 20, 20, 0)
+}
+
+.text-box {
+    margin: 0 2rem 0 1.5rem;
+    padding-right: 1rem;
+}
+
+
+/*Practice*/
+
+.small-img-container {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.small-text-box {
+    padding: 1rem;
+}
+
+#author {
+    font-size: 0.7rem;
+}
+
+/*Start*/
+
+.start {
+    width: 100%;
+    padding: 2rem;
+}
+
+.start h2 {
+    text-align: center;
+}
+
+.start-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 4rem;
+}
+
+.start-box {
+    width: 25%;
+    height: auto;
+    margin: 1rem;
+}
+
+.start-text {
+    padding: 1rem;
+}
